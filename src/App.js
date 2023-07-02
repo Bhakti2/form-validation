@@ -19,6 +19,9 @@ import { useState } from "react";
 import * as yup from "yup";
 
 function App() {
+
+
+
   //Manage Object
 
   const ITEM_HEIGHT = 48;
@@ -36,7 +39,7 @@ function App() {
     top: "50%",
     left: "50%",
     transform: "translate(-50%, -50%)",
-    width: 400,
+    width: 300,
     bgcolor: "background.paper",
     border: "2px solid #000",
     boxShadow: 24,
